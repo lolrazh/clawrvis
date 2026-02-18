@@ -1,0 +1,15 @@
+{
+  "name": "clawrvis",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "electrobun dev",
+    "build": "electrobun build",
+    "start": "bun run build && bun run dev"
+  },
+  "dependencies": {
+    "electrobun": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
